@@ -27,29 +27,20 @@ export default function TabLayout() {
                 }}
             />
             <Tabs.Screen
-                name="vibrate"
+                name="longitud"
                 options={{
-                    title: 'VIBRATE',
+                    title: 'LONGITUD',
                     tabBarIcon: ({ color, focused }) => (
                         <Ionicons name={focused ? 'barcode-sharp' : 'barcode-outline'} color={color} size={24} />
                     ),
                 }}
             />
             <Tabs.Screen
-                name="haptics"
+                name="peso"
                 options={{
-                    title: 'HAPTICS',
+                    title: 'PESO',
                     tabBarIcon: ({ color, focused }) => (
                         <Ionicons name={focused ? 'flash-sharp' : 'flash-outline'} color={color} size={24} />
-                    ),
-                }}
-            />
-            <Tabs.Screen
-                name="about"
-                options={{
-                    title: 'About',
-                    tabBarIcon: ({ color, focused }) => (
-                        <Ionicons name={focused ? 'information-circle-sharp' : 'information-circle-outline'} color={color} size={24} />
                     ),
                 }}
             />
